@@ -182,7 +182,7 @@ $$
 
 配对函数  $e(g^{*}, \ g^{*})$  可以初步（and technically incorrect）类比(mathematical analogy) 成:   “交换(swap)” 每一个输出的基数(`base`) 和 指数(`exponent`) 的操作，使得基数 $g$  在交换过程中被修改成了指数的方式，即  $g^a \rightarrow a^g$   , “被转换”的两个输入一起被修改了，这样原始值 $\color{red}a$ 和 $\color{red}b$  就在同一个指数下相乘了，即：
 $$
-e(g^\textcolor{red}{a},g^\textcolor{red}{b}) =a^g \cdot b^g =(\textcolor{red}{ab})^g
+e(g^a,g^b) =a^g \cdot b^g =(ab)^g
 $$
 
 因而因为基数(base) 在“转换”中被修改了，所以在另一个配对中不能再使用这个结果  ${(ab)}^g$ （ 即：$e({(ab)}^g, \ g^d)$ ）构造出想要的加密乘积 $abd$ 了。配对的核心性质可以表示成下面的等式：
