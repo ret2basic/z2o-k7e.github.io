@@ -190,9 +190,6 @@ $$
 e(g^a,g^b) =e(g^b,g^a)=e(g^{ab},g^1)=e(g^1,g^{ab}) =e(g^1,g^a)^b =e(g^1,g^1)^{ab} = e(g,g)^{ab}
 $$
 
-> Note：配对操作是通过改变椭圆曲线来实现这些性质的，现在我们用的符号 $g^n$ 就代表曲线上一个由生成元 $g$  自相加了 n 次的点，而不是我们前面用到的乘法群生成元。
-> The survey [DBS04](https://medium.com/@imolfar/why-and-how-zk-snark-works-3-non-interactivity-distributed-setup-c0310c0e5d1c#0ea5) provides a starting point for exploration of the cryptographic pairings.
-
 Technically, 配对的结果是目标集(target set) 的不同 generator $g$  下原始值(raw value) 的加密产物(encrypted product)，即 $e(g^a, \ \ g^b)=g^{ab}$ 。 因此它具有同态加密的性质，例如，我们可以将多个配对的加密乘积加在一起：
 $$
 e(g^a,\ g^b) \cdot e(g^c,\  g^d) = \textcolor{red}{g^{ab} \cdot g^{cd} =g^{ab + cd}} =e(g,g)^{ab + cd}
