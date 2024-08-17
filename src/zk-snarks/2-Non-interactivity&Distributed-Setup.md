@@ -212,7 +212,7 @@ $$g^\alpha, \quad g^{s^i}, \quad g^{\alpha s^i}$$
 
 - 在加密空间中校验  $p(x) = t(x) \cdot h(x)$ ： 
 $$e(g^p,g^1) \overset{?}{=} e(g^t,g^h) \quad \ \ which \ is \ equivalent \ to  \quad \ e(g,g)^p \overset{?}{=} e(g,g)^{t \cdot h}$$
-- Chech polynomial **Restriction** : 
+- Check polynomial **Restriction** : 
 $$
 \begin{aligned}
 e(g^p,g^\alpha) &\overset{?}{=} e(g^{p'},g) \\
